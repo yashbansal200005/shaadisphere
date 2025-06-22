@@ -20,7 +20,8 @@ const app = express();
 console.log
 connectCloudinary()
 app.use(cors({
-  origin: ['http://localhost:5174'], // allow your frontend
+  //origin: ['http://localhost:5174'],
+  origin: ['https://shaadisphere-pb3d.vercel.app'], // allow your frontend
   credentials: true               // allow cookies/auth headers if needed
 }));
 
