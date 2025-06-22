@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hide scrollbar for all overflow-x-auto elements */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.input {
+  @apply w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-pink-600;
+}
+
