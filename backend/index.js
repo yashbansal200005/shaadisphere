@@ -20,7 +20,7 @@ const app = express();
 console.log
 connectCloudinary()
 app.use(cors({
-  origin: ['https://matrimony-hub-bts2.vercel.app'], // allow your frontend
+  origin: ['http://localhost:5174'], // allow your frontend
   credentials: true               // allow cookies/auth headers if needed
 }));
 
